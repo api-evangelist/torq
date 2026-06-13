@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "torq": "https://torq.io/vocab#",
+    "api": "https://api.torq.io/",
+    "auth": "https://auth.torq.io/v1/auth/",
+    "apidocs": "https://developers.torq.io/apidocs/",
+    "docs": "https://developers.torq.io/docs/",
+    "kb": "https://kb.torq.io/en/",
+
+    "Workflow": "torq:Workflow",
+    "User": "torq:User",
+    "Secret": "torq:Secret",
+    "Trigger": "torq:Trigger",
+    "Webhook": "torq:Webhook",
+    "Playbook": "torq:Playbook",
+    "Workspace": "torq:Workspace",
+    "APIKey": "torq:APIKey",
+    "BearerToken": "torq:BearerToken",
+    "Integration": "torq:Integration",
+    "Incident": "torq:Incident",
+    "Alert": "torq:Alert",
+    "SOC": "torq:SOC",
+
+    "workflowId": "torq:workflowId",
+    "clientId": "torq:clientId",
+    "clientSecret": "torq:clientSecret",
+    "accessToken": "torq:accessToken",
+    "expiresIn": "torq:expiresIn",
+    "workspaceId": "torq:workspaceId",
+    "regionEndpoint": "torq:regionEndpoint",
+    "triggerType": "torq:triggerType",
+    "webhookUrl": "torq:webhookUrl",
+    "secretName": "torq:secretName",
+    "playbook": "torq:playbook",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "email": "schema:email",
+    "dateCreated": "schema:dateCreated",
+    "dateModified": "schema:dateModified",
+    "identifier": "schema:identifier",
+    "SoftwareApplication": "schema:SoftwareApplication",
+    "WebAPI": "schema:WebAPI",
+    "Organization": "schema:Organization",
+    "Person": "schema:Person",
+    "Event": "schema:Event"
+  },
+  "@type": "WebAPI",
+  "@id": "https://torq.io/",
+  "name": "Torq REST API",
+  "description": "Enterprise-grade AI-driven hyper-automation security platform REST API for programmatic management of workspace resources including workflows, users, secrets, triggers, webhooks, and automated incident response playbooks.",
+  "url": "https://developers.torq.io/apidocs/overview",
+  "provider": {
+    "@type": "Organization",
+    "name": "Torq",
+    "url": "https://torq.io/",
+    "sameAs": [
+      "https://github.com/torqio",
+      "https://www.linkedin.com/company/torqio/",
+      "https://x.com/torq_io"
+    ]
+  },
+  "documentation": "https://developers.torq.io/docs/what-is-torq",
+  "termsOfService": "https://torq.io/",
+  "regionEndpoints": [
+    {
+      "@type": "torq:RegionEndpoint",
+      "name": "United States",
+      "url": "https://api.torq.io"
+    },
+    {
+      "@type": "torq:RegionEndpoint",
+      "name": "Europe",
+      "url": "https://api.eu.torq.io"
+    }
+  ],
+  "authEndpoints": [
+    {
+      "@type": "torq:AuthEndpoint",
+      "name": "US Auth",
+      "url": "https://auth.torq.io/v1/auth/token"
+    },
+    {
+      "@type": "torq:AuthEndpoint",
+      "name": "EU Auth",
+      "url": "https://auth.eu.torq.io/v1/auth/token"
+    }
+  ],
+  "keywords": [
+    "Security Automation",
+    "SOAR",
+    "Hyper-Automation",
+    "Security Orchestration",
+    "Incident Response",
+    "No-Code",
+    "AI SOC",
+    "Workflows",
+    "Playbooks",
+    "Security Operations"
+  ]
+}

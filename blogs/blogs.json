@@ -1,0 +1,79 @@
+{
+  "provider": "torq",
+  "blog_url": "https://torq.io/blog/",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "From Alert Triage to Remediation: The Actual AI SOC Lifecycle",
+      "url": "https://torq.io/blog/ai-alert-triage/",
+      "date": "2026-06-12",
+      "description": "Analysis of why triage-only tools are insufficient and how Torq manages the complete security incident lifecycle."
+    },
+    {
+      "title": "Grounding the AI SOC: The Context Graph Problem",
+      "url": "https://torq.io/blog/ai-soc-context-graph/",
+      "date": "2026-06-10",
+      "description": "Explores why AI agents struggle with grounding issues and proposes a trustworthy contextual framework."
+    },
+    {
+      "title": "Gartner® Names Torq as Company to Beat in AI SOC Agents for Threat Investigation in May 2026",
+      "url": "https://torq.io/blog/gartner-ai-vendor-race-company-to-beat/",
+      "date": "2026-06-02",
+      "description": "Recognition from Gartner regarding Torq's positioning in AI-driven threat investigation capabilities."
+    },
+    {
+      "title": "\"A Thousand Times Better\": What Vendor Support Looks Like When It's Actually Built for Your Success",
+      "url": "https://torq.io/blog/security-automation-vendor-support/",
+      "date": "2026-05-29",
+      "description": "Examines vendor support quality when partners prioritize client success in security automation."
+    },
+    {
+      "title": "Security Automation Doesn't Mean What It Used To: A 2026 Practitioner's Guide",
+      "url": "https://torq.io/blog/ai-driven-security-automation/",
+      "date": "2026-05-28",
+      "description": "Contemporary perspective on how enterprise SOCs implement AI-driven automation approaches."
+    },
+    {
+      "title": "The Blueprint for a True AI SOC",
+      "url": "https://torq.io/blog/blueprint-for-a-true-ai-soc/",
+      "date": "2026-05-21",
+      "description": "Outlines leadership expectations and platform features for authentic AI-powered security operations."
+    },
+    {
+      "title": "Agentic AI Security Guardrails: A Deployment Guide for SOC Leaders",
+      "url": "https://torq.io/blog/agentic-ai-security-guardrails/",
+      "date": "2026-05-21",
+      "description": "Practical guidance on essential safeguards before deploying autonomous agents in production."
+    },
+    {
+      "title": "Torq Acquires Jit: The Grounding Layer the AI SOC Has Been Missing",
+      "url": "https://torq.io/blog/torq-acquires-jit/",
+      "date": "2026-05-18",
+      "description": "Announcement of acquisition to enhance contextual risk analysis in AI security operations."
+    },
+    {
+      "title": "From Buying Torq to Building Torq",
+      "url": "https://torq.io/blog/from-torq-customer-to-torq-team/",
+      "date": "2026-05-12",
+      "description": "Customer testimonials explaining transitions from purchasing to joining the company."
+    },
+    {
+      "title": "AI Security and Trust: Why SOC Teams Don't Trust AI",
+      "url": "https://torq.io/blog/ai-security-and-trust/",
+      "date": "2026-05-05",
+      "description": "Research findings on barriers to AI adoption and methods for rebuilding confidence."
+    },
+    {
+      "title": "SOC Automation Framework: How Agentic AI Powers the AI SOC",
+      "url": "https://torq.io/blog/soc-automation-framework-2026/",
+      "date": "2026-05-01",
+      "description": "Five-step framework illustrating how autonomous agents manage alerts through remediation."
+    },
+    {
+      "title": "Human-Centric Security No Longer Scales: The SOC Operating Model Has to Change",
+      "url": "https://torq.io/blog/soc-operating-model/",
+      "date": "2026-04-29",
+      "description": "Argument that traditional human-speed defense requires fundamental restructuring around automation."
+    }
+  ]
+}
