@@ -1,0 +1,29 @@
+name: Torq API Rate Limits
+description: >
+  Torq REST API rate limiting policy for workspace-scoped API requests.
+  All API keys are bound to a specific workspace. Regional endpoints exist
+  for the United States and European Union, each with the same rate limit policy.
+specificationVersion: "0.1"
+url: https://developers.torq.io/apidocs/overview
+
+limits:
+  - name: Global Request Rate Limit
+    description: >
+      Maximum number of API requests allowed per second per API key.
+      Applies to all REST API endpoints across both US and EU regional endpoints.
+    requests: 50
+    period: second
+    scope: api-key
+    endpoints: all
+
+regional-endpoints:
+  - region: United States
+    baseURL: https://api.torq.io
+  - region: European Union
+    baseURL: https://api.eu.torq.io
+
+notes:
+  - Requests exceeding the rate limit will receive an HTTP 429 Too Many Requests response.
+  - API keys are workspace-scoped; limits apply per key within a given workspace.
+  - Customers on EU infrastructure must use the api.eu.torq.io endpoint.
+  - Timestamps in all API requests and responses use RFC 3339 format (yyyy-MM-ddTHH:mm:ss.SSSZ).

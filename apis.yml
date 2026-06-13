@@ -1,0 +1,81 @@
+aid: torq
+name: Torq
+description: >
+  Torq is an enterprise-grade AI-driven hyper-automation security platform that
+  enables security operations teams to triage, investigate, and respond to threats
+  at machine speed. The REST API provides programmatic management of workspace
+  resources including workflows, users, secrets, triggers, webhooks, and automated
+  incident response playbooks. Torq supports no-code, low-code, and full-code
+  security automation with 300+ integrations and regional endpoints in the US and EU.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/torq/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+tags:
+  - Security Automation
+  - SOAR
+  - Hyper-Automation
+  - Security Orchestration
+  - Incident Response
+  - No-Code
+  - AI SOC
+  - Workflows
+  - Playbooks
+  - Security Operations
+
+apis:
+  - name: Torq REST API
+    description: >
+      The Torq REST API allows programmatic management of workspace resources
+      including workflows, users, secrets, triggers, and webhooks. API keys are
+      workspace-scoped and support both US and EU regional endpoints. The API
+      enables automation of security operations and integration with external
+      systems for incident response and threat management.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.torq.io/apidocs/overview
+    baseURL: https://api.torq.io
+    tags:
+      - Security Automation
+      - Workflows
+      - Incident Response
+      - Webhooks
+      - Triggers
+    properties:
+      - type: Documentation
+        url: https://developers.torq.io/apidocs/overview
+      - type: OpenAPI
+        url: https://developers.torq.io/apidocs/overview
+
+common:
+  - type: Website
+    url: https://torq.io/
+  - type: Documentation
+    url: https://developers.torq.io/docs/what-is-torq
+  - type: APIReference
+    url: https://developers.torq.io/apidocs/overview
+  - type: KnowledgeBase
+    url: https://kb.torq.io/en/
+  - type: GitHubOrg
+    url: https://github.com/torqio
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/torqio/
+  - type: X
+    url: https://x.com/torq_io
+  - type: Blog
+    url: https://torq.io/blog/
+  - type: Integrations
+    url: https://torq.io/integrations/
+  - type: StatusPage
+    url: https://status.torq.io/
+  - type: Plans
+    url: plans/torq-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/torq-rate-limits.yml
+  - type: FinOps
+    url: finops/torq-finops.yml
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

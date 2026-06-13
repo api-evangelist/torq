@@ -1,0 +1,99 @@
+name: Torq FinOps Framework
+description: >
+  FinOps Framework 1.0 FOCUS-aligned cost visibility and optimization guide for
+  Torq security hyper-automation platform consumption. Covers cost allocation,
+  usage optimization, and governance for security operations teams.
+specificationVersion: "1.0"
+url: https://torq.io/
+
+focus:
+  schema-version: "1.0"
+  provider: Torq
+  service-name: Torq AI SOC Platform
+  service-category: Security Automation / SOAR
+  billing-currency: USD
+  billing-periods:
+    - monthly
+    - annual
+
+cost-categories:
+  - name: Platform Subscription
+    description: >
+      Base subscription cost for Torq platform access, determined by tier
+      (Community, Professional, or Enterprise). Annual contracts are standard
+      for Professional and Enterprise tiers.
+    billing-model: subscription
+    unit: workspace
+
+  - name: Workflow Executions
+    description: >
+      Volume of automated workflow runs consumed. Higher tiers include larger
+      workflow run allocations. Overages may apply on limited tiers.
+    billing-model: usage-based
+    unit: workflow-run
+
+  - name: Integrations
+    description: >
+      Number of active third-party integrations connected to the Torq workspace.
+      Enterprise tier includes full access to 300+ integrations.
+    billing-model: tiered
+    unit: integration
+
+  - name: API Usage
+    description: >
+      REST API calls made programmatically to manage workflows, users, secrets,
+      triggers, and webhooks. Rate limit is 50 requests per second per API key.
+    billing-model: included-in-subscription
+    unit: api-request
+
+  - name: Regional Infrastructure
+    description: >
+      Data residency and processing costs for US vs. EU regional deployments.
+      EU customers use api.eu.torq.io endpoint. Compliance requirements may
+      mandate specific regional selection.
+    billing-model: included-in-subscription
+    unit: region
+
+optimization-recommendations:
+  - name: Right-size Workflow Run Allocation
+    description: >
+      Audit workflow execution frequency and consolidate redundant workflows
+      to reduce total run consumption. Deactivate unused or duplicate playbooks.
+
+  - name: Consolidate Integrations
+    description: >
+      Review active integrations and disable those not actively used in
+      production workflows to stay within tier limits and avoid overage charges.
+
+  - name: API Request Efficiency
+    description: >
+      Batch API operations where possible and implement request caching for
+      frequently accessed resources to stay well within the 50 req/s rate limit
+      and avoid throttling-induced retry storms.
+
+  - name: Annual vs Monthly Billing
+    description: >
+      Commit to annual contracts for Professional and Enterprise tiers to unlock
+      potential discount over month-to-month pricing arrangements.
+
+  - name: AWS Marketplace Procurement
+    description: >
+      Enterprise customers may benefit from procuring Torq HyperSOC via AWS
+      Marketplace to leverage existing AWS Enterprise Discount Program (EDP)
+      commitments and consolidated billing.
+
+governance:
+  - name: Cost Allocation Tagging
+    description: >
+      Tag workspaces and workflows by team, project, or business unit to enable
+      chargeback and showback reporting across the security organization.
+
+  - name: Usage Reporting Cadence
+    description: >
+      Review workflow execution volumes and integration usage monthly to track
+      against tier limits and forecast renewal needs.
+
+  - name: Budget Thresholds
+    description: >
+      Set internal budget alerts at 75% and 90% of contracted workflow run
+      allocations to avoid unexpected overages at renewal.

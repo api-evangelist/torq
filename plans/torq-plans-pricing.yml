@@ -1,0 +1,63 @@
+name: Torq Plans and Pricing
+description: >
+  Torq offers subscription-based pricing tiers for its AI-driven security
+  hyper-automation platform. Pricing is structured around workflow runs,
+  integrations, and automation capacity. Enterprise contracts are negotiated
+  directly with the sales team.
+specificationVersion: "0.1"
+url: https://torq.io/
+
+plans:
+  - name: Community Edition
+    description: >
+      Free entry-level tier providing access to core Torq automation capabilities
+      with limited workflow runs and integrations. Suitable for evaluation and
+      small-scale security automation use cases.
+    price: 0
+    currency: USD
+    billingCycle: monthly
+    features:
+      - Limited workflow runs
+      - Limited integrations
+      - Basic security automation
+      - Access to Torq workflow canvas
+      - Community support
+
+  - name: Professional
+    description: >
+      Mid-market subscription tier with expanded workflow capacity, integrations,
+      and support. Pricing is disclosed via sales engagement. Estimated range for
+      mid-market deployments is $30,000–$80,000 per year.
+    price: contact-sales
+    currency: USD
+    billingCycle: annual
+    features:
+      - Expanded workflow runs
+      - Full integration library (300+ integrations)
+      - Triggers and webhooks
+      - No-code and low-code workflow builder
+      - REST API access
+      - Email and chat support
+
+  - name: Enterprise
+    description: >
+      Full-featured enterprise tier with SSO, audit logs, compliance certifications,
+      and dedicated support. Estimated range $100,000–$500,000 per year depending
+      on scale. AWS Marketplace listing for HyperSOC at $450,000/year.
+    price: contact-sales
+    currency: USD
+    billingCycle: annual
+    features:
+      - Unlimited workflows and integrations
+      - Full REST API access with regional endpoints (US and EU)
+      - AI HyperAgents and Socrates agentic AI
+      - Case Management
+      - Threat Hunt runbooks
+      - SSO (Single Sign-On)
+      - Audit logs
+      - SOC 2 Type II compliance
+      - ISO 27001 certification
+      - HIPAA-readiness
+      - Dedicated customer success manager
+      - SLA-backed support
+      - Custom integrations
