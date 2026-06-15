@@ -1,7 +1,7 @@
 {
   "provider": "torq",
   "blog_url": "https://torq.io/blog/",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "From Alert Triage to Remediation: The Actual AI SOC Lifecycle",
@@ -16,7 +16,7 @@
       "description": "Explores why AI agents struggle with grounding issues and proposes a trustworthy contextual framework."
     },
     {
-      "title": "Gartner® Names Torq as Company to Beat in AI SOC Agents for Threat Investigation in May 2026",
+      "title": "Gartner\u00ae Names Torq as Company to Beat in AI SOC Agents for Threat Investigation in May 2026",
       "url": "https://torq.io/blog/gartner-ai-vendor-race-company-to-beat/",
       "date": "2026-06-02",
       "description": "Recognition from Gartner regarding Torq's positioning in AI-driven threat investigation capabilities."
@@ -75,5 +75,16 @@
       "date": "2026-04-29",
       "description": "Argument that traditional human-speed defense requires fundamental restructuring around automation."
     }
-  ]
+  ],
+  "repo": "torq",
+  "feeds": [
+    {
+      "source": "https://x.com/torq_io",
+      "feed_url": "https://x.com/torq_io",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
