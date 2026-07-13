@@ -2,18 +2,14 @@
   "repo": "torq",
   "feeds": [
     {
-      "source": "https://torq.io/blog/",
-      "feed_url": "",
-      "saved": 2,
-      "method": "agent-scrape"
-    },
-    {
       "source": "https://x.com/torq_io",
+      "feed_url": "https://x.com/torq_io",
+      "title": "",
       "saved": 0,
-      "error": "not a blog feed url"
+      "method": "none"
     }
   ],
-  "post_count": 5,
-  "fetched": "2026-06-27T13:16:35Z",
-  "agent_pulled": "2026-06-27"
+  "post_count": 6,
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }
