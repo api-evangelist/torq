@@ -8,7 +8,19 @@ description: >
   incident response playbooks. Torq supports no-code, low-code, and full-code
   security automation with 300+ integrations and regional endpoints in the US and EU.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium · Requires approval
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/torq.png
 url: https://raw.githubusercontent.com/api-evangelist/torq/refs/heads/main/apis.yml
 created: 2026-06-13
 modified: 2026-06-13
