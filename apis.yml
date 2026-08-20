@@ -52,6 +52,12 @@ apis:
       - Security Automation
       - Workflows
       - Incident Response
+      - Webhook
+      - Triggers
+    tags_raw:
+      - Security Automation
+      - Workflows
+      - Incident Response
       - Webhooks
       - Triggers
     properties:
