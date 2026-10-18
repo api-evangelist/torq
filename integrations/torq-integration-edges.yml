@@ -5,8 +5,11 @@ checked:
 - datadog/integrations/datadog-integration-edges.yml
 - https://azuremarketplace.microsoft.com/
 - microsoft-sentinel/integrations/microsoft-sentinel-integration-edges.yml
+- microsoft-teams/integrations/microsoft-teams-integration-edges.yml
 - okta/integrations/okta-integration-edges.yml
+- slack/integrations/slack-integration-edges.yml
 - splunk/integrations/splunk-integration-edges.yml
+- zoom/integrations/zoom-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Microsoft Azure Marketplace
@@ -115,6 +118,59 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: addon
+- partner_name: Microsoft Teams (own)
+  partner: microsoft-teams
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appsource.microsoft.com/en-us/product/office/WA200008508
+  mirror_of: microsoft-teams/integrations/microsoft-teams-integration-edges.yml
+  apps:
+  - torq
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Microsoft Teams app
+  publisher_verified:
+  - Microsoft 365 Publisher Attestation
+- partner_name: Slack (own)
+  partner: slack
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://slack.com/marketplace/A013JG73CVD-torq
+  mirror_of: slack/integrations/slack-integration-edges.yml
+  apps:
+  - Torq
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Slack app
+- partner_name: Zoom (own)
+  partner: zoom
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.zoom.us/apps/rglvf1bDTVCNJPUHY8cKCQ
+  mirror_of: zoom/integrations/zoom-integration-edges.yml
+  apps:
+  - Torq
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Zoom app
 source:
 - crowdstrike/integrations/crowdstrike-integration-edges.yml
 - datadog/integrations/datadog-integration-edges.yml
